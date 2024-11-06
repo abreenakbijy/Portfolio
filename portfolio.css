@@ -1,0 +1,153 @@
+/* Pale green theme colors */
+:root {
+    --pale-green: #e6f5e9;
+    --green-accent: #a3d9a5;
+    --dark-text: #333;
+    --light-text: #555;
+    --card-shadow: rgba(0, 0, 0, 0.1);
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--pale-green);
+    color: var(--dark-text);
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: var(--green-accent);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px var(--card-shadow);
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: var(--dark-text);
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--green-accent);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: white;
+    box-shadow: 0 4px 8px var(--card-shadow);
+}
+
+.header h1 {
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+.contact-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+/* Card styling */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px var(--card-shadow);
+}
+
+.card h2 {
+    color: var(--green-accent);
+    margin-bottom: 10px;
+}
+
+.card ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+/* Additional styling for Seminar & Presentation section */
+#seminar {
+    background-color: white;
+    border-left: 5px solid var(--green-accent);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px var(--card-shadow);
+}
+
+#seminar h2 {
+    color: var(--green-accent);
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+#seminar p {
+    color: var(--dark-text);
+    line-height: 1.6;
+}
+
+.profile {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px var(--card-shadow);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    color: var(--light-text);
+}
+
+.footer h2 {
+    color: var(--green-accent);
+}
+
+/* Links */
+a {
+    color: var(--green-accent);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--dark-text);
+}
